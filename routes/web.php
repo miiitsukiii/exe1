@@ -15,4 +15,4 @@ use App\Http\Controllers\PostController; //外部にあるPostControlllerクラ�
 |
 */
 
-Route::get('/posts',[PostController::class,'index']);
+Route::get('/posts', [PostController::class,'index']);
