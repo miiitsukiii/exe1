@@ -9,7 +9,9 @@
     <body>
         <h1>Blog Name</h1>
         <div class='post'>
-            <h2 class='title'>Title</h2>
+            <h2 class='title'>
+                <a href="/posts/{{ $post->1 }}">{{ $post->title }}</a>
+            </h2>
             <p class='body'>This is a sample body.</p>
         </div>
     </body>
